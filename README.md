@@ -1,6 +1,14 @@
-# ChatBot Simples
+# English Teacher ChatBot
 
 *My first repository 100% in English*
+
+An AI English teacher built with Python using the Groq API and Llama 3.3 model to help Portuguese speakers learn English.
+
+## Description
+
+This is an English teacher chatbot that uses Groq's AI service to help students practice English conversation. The bot is designed specifically for Portuguese speakers and provides patient, encouraging guidance in simple English. Simples
+
+_My first repository 100% in English_
 
 A simple chatbot built with Python using the Groq API and Llama 3.3 model.
 
@@ -24,17 +32,20 @@ This is a basic chatbot that uses Groq's AI service to have conversations with u
 ## Installation
 
 1. Clone this repository:
+
 ```bash
 git clone <repository-url>
 cd ChatBot-Simples
 ```
 
 2. Install required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Create a `.env` file and add your Groq API key:
+
 ```
 GROQ_API_KEY=your_api_key_here
 ```
@@ -42,6 +53,7 @@ GROQ_API_KEY=your_api_key_here
 ## How to Use
 
 1. Run the chatbot:
+
 ```bash
 python chatbot.py
 ```
