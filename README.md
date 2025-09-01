@@ -1,6 +1,6 @@
 # English Teacher ChatBot
 
-*My first repository 100% in English*
+_My first repository 100% in English_
 
 An AI English teacher built with Python using the Groq API and Llama 3.3 model to help Portuguese speakers learn English.
 

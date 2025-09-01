@@ -1,13 +1,14 @@
 import os
+import streamlit as st
 from groq import Groq
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Initialize Groq client with API key
+# Initialize Groq client with API key (works with both .env and Streamlit secrets)
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY"),
+    api_key=st.secrets.get("GROQ_API_KEY") or os.environ.get("GROQ_API_KEY"),
 )
 
 # System prompt to control chatbot behavior
