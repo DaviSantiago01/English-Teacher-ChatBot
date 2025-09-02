@@ -1,112 +1,72 @@
-# English Teacher ChatBot
+# 🎓 English Teacher ChatBot
 
-_My first repository 100% in English_
+A simple AI-powered English teacher that helps Portuguese speakers learn English through conversation.
 
-An AI English teacher built with Python using the Groq API and Llama 3.3 model to help Portuguese speakers learn English.
+## ✨ Features
 
-## Description
+- 💬 **Text Chat**: Type messages and get responses from your AI English teacher
+- 🎤 **Voice Input**: Record your voice and the bot will understand what you said
+- 🕐 **Message History**: See all your conversations with timestamps
+- 🗑️ **Clear Chat**: Start fresh conversations anytime
+- 🎯 **Simple English**: The teacher uses easy words and short sentences
+- 📚 **Grammar Help**: Get corrections and explanations when you make mistakes
 
-This is an English teacher chatbot that uses Groq's AI service to help students practice English conversation. The bot is designed specifically for Portuguese speakers and provides patient, encouraging guidance in simple English. Simples
+## 🚀 How to Use
 
-_My first repository 100% in English_
+1. **Install Requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-A simple chatbot built with Python using the Groq API and Llama 3.3 model.
+2. **Set Up API Key**:
+   - Get a free API key from [Groq](https://groq.com)
+   - Create a `.env` file and add:
+     ```
+     GROQ_API_KEY=your_api_key_here
+     ```
 
-## Description
+3. **Run the App**:
+   ```bash
+   streamlit run main.py
+   ```
 
-This is a basic chatbot that uses Groq's AI service to have conversations with users. The bot keeps track of conversation history and provides responses using the Llama 3.3 70B model.
+4. **Start Learning**:
+   - Type messages or click the 🎤 button to record your voice
+   - Practice English conversation with your AI teacher
+   - Get help with grammar and pronunciation
 
-## Features
+## 🛠️ Technology
 
-- Interactive chat in the terminal
-- Conversation memory (remembers previous messages)
-- Uses Groq's fast AI API
-- Simple and clean code structure
+- **Streamlit**: Web app framework
+- **Groq API**: Fast AI responses using Llama 3.3 70B
+- **Google Speech Recognition**: Voice-to-text conversion
+- **Python**: Main programming language
 
-## Requirements
-
-- Python 3.7+
-- Groq API key
-- Required packages (see requirements.txt)
-
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone <repository-url>
-cd ChatBot-Simples
-```
-
-2. Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Create a `.env` file and add your Groq API key:
+## 📁 Project Structure
 
 ```
-GROQ_API_KEY=your_api_key_here
+├── main.py          # Main Streamlit app with UI and voice processing
+├── chatbot.py       # AI chat functionality using Groq API
+├── requirements.txt # Python dependencies
+└── README.md       # This file
 ```
 
-## How to Use
+## 🎯 Perfect For
 
-1. Run the chatbot:
+- Portuguese speakers learning English
+- Beginners who want to practice conversation
+- Students who prefer voice interaction
+- Anyone wanting to improve English skills
 
-```bash
-python chatbot.py
-```
+## 🔧 Requirements
 
-2. Type your message and press Enter
-3. The AI will respond to your message
-4. Type "exit" to stop the chatbot
-
-## Getting Your API Key
-
-1. Go to [console.groq.com](https://console.groq.com)
-2. Create an account or sign in
-3. Go to "API Keys"
-4. Create a new API key
-5. Copy it to your `.env` file
-
-## Example
-
-```
-Type your message: Hello, how are you?
-Answer: Hello! I'm doing well, thank you for asking. How are you doing today?
-
-Type your message: What can you help me with?
-Answer: I can help you with many things like answering questions, having conversations, explaining topics, and much more. What would you like to talk about?
-
-Type your message: exit
-```
-
-## Project Structure
-
-```
-ChatBot Simples/
-├── chatbot.py          # Main chatbot code
-├── main.py            # Empty file for future features
-├── requirements.txt   # Python dependencies
-├── .env              # Environment variables (not in git)
-├── .gitignore        # Git ignore file
-└── README.md         # This file
-```
-
-## Notes
-
-- Keep your API key secret and never share it
-- The chatbot needs internet connection to work
-- Conversation history is only saved during the current session
-
-## Future Improvements
-
-- Save conversation history to file
-- Add more AI models to choose from
-- Create a web interface
-- Add more features and commands
+- Python 3.8+
+- Internet connection (for AI and voice recognition)
+- Microphone (optional, for voice input)
+- Groq API key (free)
 
 ---
 
-Made with ❤️ and Python
+**Happy Learning! 📚✨**
+
+*Start your English learning journey today with your personal AI teacher!*
